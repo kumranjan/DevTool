@@ -9,6 +9,7 @@ public class AppTest
 	@Test
 	public void testWithPositive()
 	{
+		System.out.println("AppTest.testWithPositive()");
 		Arithmetic ar=new Arithmetic();
 		int actual=ar.Sum(10,20);
 		int expected=30;
