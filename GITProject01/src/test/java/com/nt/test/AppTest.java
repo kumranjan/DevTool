@@ -31,8 +31,8 @@ public class AppTest
 	{
 		System.out.println("AppTest.testWithMixedNUmber()");
 		Arithmetic ar=new Arithmetic();
-		int actual=ar.Sum(-10,20);
-		int expected=10;
+		int actual=ar.Sum(-150,200);
+		int expected=50;
 		assertEquals(expected,actual);
 		
 	}
