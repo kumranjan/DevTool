@@ -16,5 +16,14 @@ public class AppTest
 		assertEquals(expected,actual);
 		
 	}
+	@Test
+	public void testWithNegative()
+	{
+		Arithmetic ar=new Arithmetic();
+		int actual=ar.Sum(-10,-20);
+		int expected=-30;
+		assertEquals(expected,actual);
+		
+	}
     
 }
