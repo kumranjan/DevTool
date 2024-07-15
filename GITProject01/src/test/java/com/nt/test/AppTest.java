@@ -19,9 +19,20 @@ public class AppTest
 	@Test
 	public void testWithNegative()
 	{
+		System.out.println("AppTest.testWithNegative()");
 		Arithmetic ar=new Arithmetic();
 		int actual=ar.Sum(-10,-20);
 		int expected=-30;
+		assertEquals(expected,actual);
+		
+	}
+	@Test
+	public void testWithMixedNUmber()
+	{
+		System.out.println("AppTest.testWithMixedNUmber()");
+		Arithmetic ar=new Arithmetic();
+		int actual=ar.Sum(-10,20);
+		int expected=10;
 		assertEquals(expected,actual);
 		
 	}
