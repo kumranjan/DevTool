@@ -21,11 +21,12 @@ public class AppTest
 	{
 		System.out.println("AppTest.testWithNegative()");
 		Arithmetic ar=new Arithmetic();
-		int actual=ar.Sum(-10,-20);
-		int expected=-30;
+		int actual=ar.Sum(-50,-20);
+		int expected=-70;
 		assertEquals(expected,actual);
 		
 	}
+	
 	
 		
 	}
