@@ -11,8 +11,8 @@ public class AppTest
 	{
 		System.out.println("AppTest.testWithPositive()");
 		Arithmetic ar=new Arithmetic();
-		int actual=ar.Sum(10,20);
-		int expected=30;
+		int actual=ar.Sum(50,50);
+		int expected=100;
 		assertEquals(expected,actual);
 		
 	}
